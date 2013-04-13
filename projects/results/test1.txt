@@ -1,0 +1,86 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupaltest.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupaltest.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        11843 bytes
+
+Concurrency Level:      10
+Time taken for tests:   15.964 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1232700 bytes
+HTML transferred:       1184300 bytes
+Requests per second:    6.26 [#/sec] (mean)
+Time per request:       1596.358 [ms] (mean)
+Time per request:       159.636 [ms] (mean, across all concurrent requests)
+Transfer rate:          75.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       1
+Processing:   631 1575 307.9   1503    3454
+Waiting:      623 1502 299.3   1424    3346
+Total:        632 1575 307.9   1503    3455
+
+Percentage of the requests served within a certain time (ms)
+  50%   1503
+  66%   1550
+  75%   1652
+  80%   1691
+  90%   2001
+  95%   2093
+  98%   2211
+  99%   3455
+ 100%   3455 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupaltest.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupaltest.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        11843 bytes
+
+Concurrency Level:      10
+Time taken for tests:   16.561 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1232700 bytes
+HTML transferred:       1184300 bytes
+Requests per second:    6.04 [#/sec] (mean)
+Time per request:       1656.098 [ms] (mean)
+Time per request:       165.610 [ms] (mean, across all concurrent requests)
+Transfer rate:          72.69 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1  857 647.1   1204    1849
+Processing:     0  780 856.7   1067    5029
+Waiting:        0  706 788.1   1018    4944
+Total:        659 1637 605.2   1526    5193
+
+Percentage of the requests served within a certain time (ms)
+  50%   1526
+  66%   1616
+  75%   1661
+  80%   1690
+  90%   1796
+  95%   2958
+  98%   4081
+  99%   5193
+ 100%   5193 (longest request)

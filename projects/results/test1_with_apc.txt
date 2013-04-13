@@ -1,0 +1,129 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupaltest.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupaltest.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        11843 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.789 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1232700 bytes
+HTML transferred:       1184300 bytes
+Requests per second:    14.73 [#/sec] (mean)
+Time per request:       678.885 [ms] (mean)
+Time per request:       67.889 [ms] (mean, across all concurrent requests)
+Transfer rate:          177.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       1
+Processing:   275  667 121.1    661    1097
+Waiting:      272  643 117.4    639    1064
+Total:        276  667 121.1    661    1098
+
+Percentage of the requests served within a certain time (ms)
+  50%    661
+  66%    691
+  75%    725
+  80%    743
+  90%    773
+  95%    911
+  98%   1058
+  99%   1098
+ 100%   1098 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupaltest.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupaltest.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        11843 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.150 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1232700 bytes
+HTML transferred:       1184300 bytes
+Requests per second:    16.26 [#/sec] (mean)
+Time per request:       614.996 [ms] (mean)
+Time per request:       61.500 [ms] (mean, across all concurrent requests)
+Transfer rate:          195.74 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   11  36.6      0     135
+Processing:   171  595  82.7    601     849
+Waiting:      156  570  79.8    578     819
+Total:        172  606  90.5    607     849
+
+Percentage of the requests served within a certain time (ms)
+  50%    607
+  66%    628
+  75%    650
+  80%    660
+  90%    686
+  95%    734
+  98%    796
+  99%    849
+ 100%    849 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupaltest.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupaltest.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        11843 bytes
+
+Concurrency Level:      10
+Time taken for tests:   7.984 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1232700 bytes
+HTML transferred:       1184300 bytes
+Requests per second:    12.52 [#/sec] (mean)
+Time per request:       798.421 [ms] (mean)
+Time per request:       79.842 [ms] (mean, across all concurrent requests)
+Transfer rate:          150.77 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1  460 291.2    509    1018
+Processing:     0  327 344.2     63    1110
+Waiting:        0  301 341.5      0    1070
+Total:        336  786 125.7    769    1155
+
+Percentage of the requests served within a certain time (ms)
+  50%    769
+  66%    790
+  75%    815
+  80%    826
+  90%   1019
+  95%   1072
+  98%   1112
+  99%   1155
+ 100%   1155 (longest request)

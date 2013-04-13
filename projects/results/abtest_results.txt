@@ -1,0 +1,5 @@
+URL: http://drupaltest.local/mankind_in_need
+
+CMD: 
+ab -n 100 -c 10 http://drupaltest.local/mankind_in_need > test1.txt
+

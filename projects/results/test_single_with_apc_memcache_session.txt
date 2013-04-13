@@ -1,0 +1,268 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupal-web1.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupal-web1.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        12738 bytes
+
+Concurrency Level:      10
+Time taken for tests:   7.860 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1322200 bytes
+HTML transferred:       1273800 bytes
+Requests per second:    12.72 [#/sec] (mean)
+Time per request:       786.043 [ms] (mean)
+Time per request:       78.604 [ms] (mean, across all concurrent requests)
+Transfer rate:          164.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   10  43.9      0     201
+Processing:   312  764 113.0    757    1102
+Waiting:      309  737 110.5    728    1074
+Total:        312  774 127.2    761    1303
+
+Percentage of the requests served within a certain time (ms)
+  50%    761
+  66%    787
+  75%    821
+  80%    848
+  90%    916
+  95%   1002
+  98%   1186
+  99%   1303
+ 100%   1303 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupal-web1.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupal-web1.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        12738 bytes
+
+Concurrency Level:      10
+Time taken for tests:   7.754 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1322200 bytes
+HTML transferred:       1273800 bytes
+Requests per second:    12.90 [#/sec] (mean)
+Time per request:       775.436 [ms] (mean)
+Time per request:       77.544 [ms] (mean, across all concurrent requests)
+Transfer rate:          166.51 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5  23.9      0     122
+Processing:   386  755 136.1    743    1284
+Waiting:      383  729 132.7    715    1259
+Total:        386  760 139.4    743    1284
+
+Percentage of the requests served within a certain time (ms)
+  50%    743
+  66%    762
+  75%    778
+  80%    794
+  90%    945
+  95%   1087
+  98%   1116
+  99%   1284
+ 100%   1284 (longest request)
+
+
+Concurrency 20
+=================
+
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupal-web1.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupal-web1.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        12738 bytes
+
+Concurrency Level:      20
+Time taken for tests:   9.176 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1322200 bytes
+HTML transferred:       1273800 bytes
+Requests per second:    10.90 [#/sec] (mean)
+Time per request:       1835.286 [ms] (mean)
+Time per request:       91.764 [ms] (mean, across all concurrent requests)
+Transfer rate:          140.71 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1  924 835.4    417    4558
+Processing:     0  837 744.1   1153    2005
+Waiting:        0  810 720.7   1152    1971
+Total:        851 1761 580.5   1733    4576
+
+Percentage of the requests served within a certain time (ms)
+  50%   1733
+  66%   1748
+  75%   1878
+  80%   2001
+  90%   2481
+  95%   2902
+  98%   3561
+  99%   4576
+ 100%   4576 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupal-web1.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupal-web1.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        12738 bytes
+
+Concurrency Level:      20
+Time taken for tests:   8.203 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1322200 bytes
+HTML transferred:       1273800 bytes
+Requests per second:    12.19 [#/sec] (mean)
+Time per request:       1640.590 [ms] (mean)
+Time per request:       82.030 [ms] (mean, across all concurrent requests)
+Transfer rate:          157.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    8  27.2      0     101
+Processing:  1316 1612 167.6   1567    2266
+Waiting:     1303 1554 161.6   1515    2209
+Total:       1316 1620 174.3   1568    2266
+
+Percentage of the requests served within a certain time (ms)
+  50%   1568
+  66%   1693
+  75%   1738
+  80%   1763
+  90%   1855
+  95%   1922
+  98%   2197
+  99%   2266
+ 100%   2266 (longest request)
+
+
+Concurrency 30
+================
+
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupal-web1.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupal-web1.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        12738 bytes
+
+Concurrency Level:      30
+Time taken for tests:   9.544 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1322200 bytes
+HTML transferred:       1273800 bytes
+Requests per second:    10.48 [#/sec] (mean)
+Time per request:       2863.330 [ms] (mean)
+Time per request:       95.444 [ms] (mean, across all concurrent requests)
+Transfer rate:          135.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1 1502 1109.7   1839    3490
+Processing:     0 1198 1487.4    117    5481
+Waiting:        0 1162 1485.9    116    5480
+Total:       1604 2700 854.2   2570    5611
+
+Percentage of the requests served within a certain time (ms)
+  50%   2570
+  66%   2688
+  75%   2796
+  80%   3125
+  90%   4793
+  95%   4795
+  98%   4796
+  99%   5611
+ 100%   5611 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking drupal-web1.local (be patient).....done
+
+
+Server Software:        Apache/2.2.15
+Server Hostname:        drupal-web1.local
+Server Port:            80
+
+Document Path:          /mankind_in_need
+Document Length:        12738 bytes
+
+Concurrency Level:      30
+Time taken for tests:   9.668 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      1322200 bytes
+HTML transferred:       1273800 bytes
+Requests per second:    10.34 [#/sec] (mean)
+Time per request:       2900.317 [ms] (mean)
+Time per request:       96.677 [ms] (mean, across all concurrent requests)
+Transfer rate:          133.56 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1 1406 1201.1   1971    4758
+Processing:     0 1325 1521.2    818    4906
+Waiting:        0 1287 1515.1    697    4903
+Total:       1878 2731 871.2   2529    5163
+
+Percentage of the requests served within a certain time (ms)
+  50%   2529
+  66%   2791
+  75%   2791
+  80%   2936
+  90%   4906
+  95%   4908
+  98%   4908
+  99%   5163
+ 100%   5163 (longest request)
