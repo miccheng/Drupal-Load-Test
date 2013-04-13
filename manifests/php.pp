@@ -60,11 +60,15 @@ class php {
     ensure  => present,
   }
 
+  package { "php-domxml-php4-php5":
+    ensure  => present,
+  }
+
   package { "uuid-php":
     ensure  => present,
   }
 
-  package { "php-pecl-memcache":
+  package { "php-pecl-memcached":
     ensure  => present,
   }
 
@@ -75,18 +79,6 @@ class php {
 
   package { "php-pecl-apc":
     ensure  => present,
-  }
-
-  exec { "xhprof":
-    command => "/usr/bin/pecl install xhprof-beta",
-    creates => "/usr/lib64/php/modules/xhprof.so",
-    require => Exec["grab-epel"]
-  }
-
-  file { "/etc/php.d/xhprof.ini":
-    replace => true,
-    ensure  => present,
-    source  => "/vagrant/files/php.d/xhprof.ini",
   }
 
   file { "/etc/php.ini":

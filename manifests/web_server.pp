@@ -1,15 +1,10 @@
 # Puppet manifest for my PHP dev machine
 Exec { path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
-class phpdevweb{
+class web{
 	require yum
 	include iptables
-	#include rpmforge
 	include misc
 	include httpd
-	#include phpdev
-	include db
 	include php
-	include memcache
-	include phpmyadmin
 }
-include phpdevweb
+include web
