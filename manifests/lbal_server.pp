@@ -5,5 +5,6 @@ class lbal{
 	include iptables
 	include misc
 	include nginx_lbal
+	include varnish
 }
 include lbal
