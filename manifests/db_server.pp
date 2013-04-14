@@ -6,12 +6,5 @@ class db_server{
 	include misc
 	include db
 	include memcache
-
-	file { "/etc/my.cnf":
-		replace => true,
-		ensure  => present,
-		source  => "/vagrant/files/my.cnf",
-		notify => Service["mysqld"]
-	}
 }
 include db_server
