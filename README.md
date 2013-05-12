@@ -78,10 +78,10 @@ $ vagrant destroy
 
 ## Contacts Details:
 
-*Singapore PHP User Group*
+*Singapore PHP User Group*<br/>
 Facebook Group: https://www.facebook.com/groups/sghypertextpreprocessors/
 
-*Michael Cheng*
-Website: [http://coderkungfu.com](http://coderkungfu.com)
-Twitter: @coderkungfu
+*Michael Cheng*<br/>
+Website: [http://coderkungfu.com](http://coderkungfu.com)<br/>
+Twitter: @coderkungfu<br/>
 Email: mcheng.work@gmail.com
