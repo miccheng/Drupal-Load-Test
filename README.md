@@ -19,7 +19,8 @@ The Apache Bench results are included in the `results` folder. The load test was
 3. Clone this repo into a local folder and initialize the submodule
 
 	```bash
-$ git clone git@github.com:miccheng/vagrant-lamp-centos63.git phpdev
+$ git clone git://github.com/miccheng/Drupal-Load-Test.git drupal_load_test
+$ cd drupal_load_test
 $ git submodule init
 $ git submodule update
 ```
