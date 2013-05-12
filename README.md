@@ -1,17 +1,10 @@
-# LAMP stack setup based on CentOS 6.3 with Vagrant / Puppet
+# Drupal Load Test
 
-For anyone wanting to try out Vagrant, here's some sample code to help you setup your own LAMP dev sandbox quickly. It runs on CentOS 6.3 and the internal setup is done with Puppet.
+Simple load testing. The final setup are a 2 Apache server web cluster (`drupal-web1.local` and `drupal-web2.local`). They are sharing PHP Sessions via memcached on `drupal-db.local`. MySQL server is running from `drupal-db.local`. The web cluster is load balanced by an Nginx server (`drupaltest.local`). Web requests to Nginx are cached via Varnish.
 
-Do note that the first run might take a while. Depending on your speed, 10 minutes to download the base VM (CentOS 6.3) and 5 minutes to startup and provision the VM. But subsequent startup should be quite fast.
+To gain maximum performance, we turn on Anonymous User caching in Drupal.
 
-You can spin up new boxes very easily. Just put your PHP scripts in the `projects` folder and add a new vhost. If you are lazy, just throw your PHP files into the `projects/webroot` folder.
-
-This installs:
-
-- Apache
-- MySQL
-- PHP
-- phpMyAdmin
+The Apache Bench results are included in the `results` folder. The load test was run on 4 VirtualBox Virtual Machines on my Macbook Air (Core i7 with 8 GB RAM - the OS are running on my SSD).
 
 ## Installation
 
@@ -23,7 +16,7 @@ This installs:
 	
 	Download from [http://downloads.vagrantup.com](http://downloads.vagrantup.com/).
 
-3. Clone this repo into a local folder
+3. Clone this repo into a local folder and initialize the submodule
 
 	```bash
 $ git clone git@github.com:miccheng/vagrant-lamp-centos63.git phpdev
@@ -31,7 +24,11 @@ $ git submodule init
 $ git submodule update
 ```
 
-4. Start Vagrant
+4. Download Drupal 7
+
+	Download from [Drupal.org](http://drupal.org/download), unzip the file and copy the `drupal` folder into `./projects/`.
+
+5. Start Vagrant
 
 	`cd` into the checked out folder to start the VM:
 
@@ -39,15 +36,22 @@ $ git submodule update
 $ vagrant up
 ```
 
-## Usage
+6. Update your `/etc/hosts` file
 
-Update your host operating system's `/etc/hosts` file with the following entry:
+	Update your host operating system's `/etc/hosts` file with the following entry:
 
-```bash
-192.168.56.60 phpdev.local
+	```bash
+192.168.56.60 drupaltest.localhost
+192.168.56.61 drupal-web1.localhost
+192.168.56.62 drupal-web2.localhost
+192.168.56.63 drupal-db.localhost
 ```
 
-Now, you can reach the webroot with `http://phpdev.local` or `http://localhost:8080`.
+7. Setup Drupal
+
+	Open your browser to `http://drupaltest.localhost` and run through the setup process. The default passwords are 
+
+## Usage
 
 To login into the VM type
 ```bash
@@ -69,10 +73,14 @@ To destroy the VM:
 $ vagrant destroy
 ```
 
-The phpMyAdmin URL: `http://phpdev.local/phpmyadmin` or `http://localhost:8080/phpmyadmin`.
+***Note:*** The MySQL `root` user does not have any password. The Drupal MySQL user is `drupaltest` (Password: `password1`).
 
-***Note:*** The MySQL username is `root` and the root password is `media1`. To change the default, edit `manifests/db.pp`.
+## Contacts Details:
 
-## Attribution
+*Singapore PHP User Group*
+Facebook Group: https://www.facebook.com/groups/sghypertextpreprocessors/
 
-Based on the excellent work from [Patrick Daether](https://github.com/pdaether/LAMP-CentOS-with-Vagrant).
+*Michael Cheng*
+Website: [http://coderkungfu.com](http://coderkungfu.com)
+Twitter: @coderkungfu
+Email: mcheng.work@gmail.com
